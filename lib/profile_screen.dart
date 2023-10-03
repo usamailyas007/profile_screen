@@ -77,7 +77,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                 ),
               ),
-              SizedBox(height: height * 0.035),
+              SizedBox(height: height * 0.02),
               FutureBuilder(
                 future: getProfileApi(),
                 builder: (context,AsyncSnapshot<List<ProfileModel>>  snapshot) {
